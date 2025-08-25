@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://frontend-dietetics.vercel.app/")
+                        .allowedOrigins("https://frontend-dietetics.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("Authorization", "Content-Type", "X-Requested-With", "Accept")
                         .allowCredentials(true)
